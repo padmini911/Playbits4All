@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/categories"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button -->
+
+        </FrameLayout>
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button -->
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- First Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/overcolors"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/colorsButton"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="113dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#052196F3"
+                android:text="" />
+
+        </FrameLayout>
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/overmusic"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/musicButton"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="116dp"
+                android:layout_height="118dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#052196F3"
+                android:text="" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter" />
+
+            <!-- Button -->
+
+        </FrameLayout>
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter" />
+
+            <!-- Button -->
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Second Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/overabc"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/alphabetsButton"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="117dp"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#052196F3"
+                android:text="" />
+
+        </FrameLayout>
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/overnums"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/numbersButton"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="116dp"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#052196F3"
+                android:text="" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter" />
+
+            <!-- Button -->
+
+        </FrameLayout>
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter" />
+
+            <!-- Button -->
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/overgames"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/gamesButton"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="118dp"
+                android:layout_height="129dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#052196F3"
+                android:text="" />
+
+        </FrameLayout>
+
+        <!-- FrameLayout with ImageView and Button -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- ImageView -->
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/overyes"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/smartMathButton"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="114dp"
+                android:layout_height="131dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#052196F3"
+                android:text="" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Third Row -->
+    <!-- You can continue adding more rows as needed -->
+
+</LinearLayout>
